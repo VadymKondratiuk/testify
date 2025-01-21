@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+#root { 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.app-router {
+    flex: 1; 
+    min-height: calc(100vh - 70px - 70px + 20px); 
+    display: flex;
+    flex-direction: column;
+}

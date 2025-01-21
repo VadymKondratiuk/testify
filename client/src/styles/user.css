@@ -1,0 +1,26 @@
+.test-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.create-test-btn {
+    width: 200px;
+    margin: 15px 0;
+}
+
+.user-info-card,
+.test-list-card,
+.result-list-card {
+    padding: 20px;
+    margin-bottom: 40px;
+    max-height: 600px; 
+    overflow-y: auto; 
+    background-color: '#daebf7';
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Додає легку тінь */
+    border-radius: 8px; /* Додає закруглені кути */
+    border: 1px solid #e3e3e3; /* Легка рамка */
+    transition: box-shadow 0.3s ease; /* Анімація тіні при наведенні */
+}
+

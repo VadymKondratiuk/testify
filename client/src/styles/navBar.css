@@ -1,0 +1,54 @@
+.header {
+    background-color: #81a0b8;
+    color: #fff;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.img-logo {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.profile-icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.navlink {
+    height: 100%;
+}
+
+.reg-btn, .admin-pannel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 10px;
+    min-width: 100px;
+    height: 50%;
+    color: #fff;
+    background-color: #7118de;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-right: 10px;
+}
+
+.two-btn {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+}
